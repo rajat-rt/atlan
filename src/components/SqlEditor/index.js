@@ -33,12 +33,12 @@ const SqlEditor = () => {
 
     const onChangeHandler = ({ target: { value }}) => {
         setQueryVal(value);
-        setBtnState( value != '' ? true: false )
+        setBtnState( value !== '' ? true: false )
     };
     
     const onSelectDropdownHandler = (value) => {
         setQueryVal(value);
-        setBtnState( value != '' ? true: false )
+        setBtnState( value !== '' ? true: false )
     }
     
     return (

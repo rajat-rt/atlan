@@ -12,8 +12,7 @@ export const getSqlData = (query) => {
         const randomLimit = ALL_DATA_POINT.length-1;
         const randomNumber = Number.parseInt(Math.random()*100) % randomLimit
         try{
-            console.log(ALL_DATA_POINT.sort(() => Math.random() - 0.5));
-            res(ALL_DATA_POINT.sort(() => Math.random() - 0.5)[0]);
+            res(ALL_DATA_POINT[randomNumber]);
         } catch(err) {
             rej(new Error('Data is not available!!!'));
         }
