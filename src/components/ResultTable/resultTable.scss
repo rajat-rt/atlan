@@ -1,0 +1,9 @@
+.no-data-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    >div{
+        text-transform: capitalize;
+    }
+}

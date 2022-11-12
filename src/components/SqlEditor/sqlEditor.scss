@@ -1,0 +1,30 @@
+.sql-editor-wrapper{
+    margin-top: 2rem; 
+    .sql-editor{
+        margin-bottom: 2rem;
+        .text-area{
+            width: 100%;
+            height: 200px;
+            border-color: #dee2e6;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        button{
+            float: right;
+            cursor: pointer;
+        }
+        .history-label{
+            text-align: left;
+        }
+        .query-list-wrapper{
+            .form-select{
+                cursor: pointer;
+            }
+        }
+    }
+    .result-wrapper{
+        .heading{
+            margin: 2rem 0;
+        }
+    }
+}
