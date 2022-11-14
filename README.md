@@ -51,3 +51,16 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### react-bootstrap
 
 ### sass
+
+# Project Performance:
+
+## Files | SRT | CDT | Total
+
+index.html | 84.23ms | 0.43ms | 328ms \
+JS file | 173.67ms | 166.32ms | 343.63ms\
+CSS file | 79.84ms | 94.06ms | 177.28ms\
+
+### Note:
+
+SRT : SERVER RESPONSE TIME\
+CDT : CONTENT DOWNLOAD TIME
