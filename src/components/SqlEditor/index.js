@@ -45,7 +45,7 @@ const SqlEditor = () => {
         <div className='sql-editor-wrapper container'>
             <div className="row sql-editor">
                 <div className='col col-lg-12'>
-                    <textarea className='text-area' onChange={onChangeHandler} value={queryVal}></textarea>
+                    <textarea placeholder="Enter your SQL Queries here!!!" className='text-area' onChange={onChangeHandler} value={queryVal}></textarea>
                 </div>
                 <div className='col col-lg-4'>
                     <h4 className="history-label">History</h4>
@@ -55,7 +55,7 @@ const SqlEditor = () => {
                     <Button disabled={!btnState} variant="primary" onClick={scriptExecuteHandler}>Execute</Button>
                 </div>
             </div>
-            <hr></hr>
+            
             <div className='row result-wrapper'>
                 <div className='col col-lg-12'>
                     <h2 className='heading'>Result:</h2>

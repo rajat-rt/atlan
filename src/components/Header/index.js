@@ -12,7 +12,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Link</Nav.Link>
+            <Nav.Link href="https://github.com/rajat-rt/atlan/blob/main/README.md" target="_blank">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

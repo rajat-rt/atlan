@@ -7,3 +7,17 @@
         text-transform: capitalize;
     }
 }
+.sql-editor-wrapper{
+    .result-wrapper{
+        .table-wrapper{
+            height: 50vh;
+            overflow-y: scroll;
+            table{
+                table-layout: fixed;
+                width: 100%;
+                word-wrap: break-word;
+            }
+        }
+        
+    }
+}

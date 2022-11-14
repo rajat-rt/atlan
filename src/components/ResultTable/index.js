@@ -3,7 +3,7 @@ import './resultTable.scss'
 
 const ResultTable = ({ tableData }) => {
   return (
-    <>  
+    <div className='table-wrapper'>  
     { tableData.data.length > 0 ? 
       <Table striped bordered hover>
         <thead> 
@@ -21,7 +21,7 @@ const ResultTable = ({ tableData }) => {
         </tbody>
     </Table>
     : <div className="no-data-found"><div>No data Found</div></div>}
-    </>
+    </div>
   );
 };
 
